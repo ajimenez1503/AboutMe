@@ -38,27 +38,34 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Senior Software Engineer at ThousandEyes part of Cisco. 
+  
   Recently, he has pivoted his focus towards the domain of observability and microservices.
 
 content:
-  - title: Projects # Title for the section
+  - title: Tech talks # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Observability 1o1
+        link: t.co/vVHDlkSOir
+        link_text: AlmeriaJS event
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Observability demo
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/ajimenez1503/observability_demo
+          - title: Slides
+            icon: fa-regular fa-presentation-screen
+            url: https://lnkd.in/d-WejTKH
+          - title: Recording
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=QH5kgSRhHgc 
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          ¿Qué sabéis sobre observabilidad?
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          La observabilidad te ayuda a entender mejor tu sistema y saber que está pasando en todo momento. Y lo más importante, facilitar y agilizar el análisis y solución de problema.
+
+          En la charla voy a hablar sobre la Observability y sus pilares: mensajes de logs, métricas y trazas. Además, voy a hacer una demo donde veréis la Observabilidad en acción y descubriréis lo útil que es.
+          [![Recording](https://img.youtube.com/vi/QH5kgSRhHgc/0.jpg)](https://www.youtube.com/watch?v=QH5kgSRhHgc)
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
