@@ -46,8 +46,31 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: What we learned from adopting Opentelemetry
+        link: https://2024.commit-conf.com/
+        caption: April 2024
+        link_text: Commit conf event
+        # additional_links:
+        #   - title: Slides
+        #     icon: fab fa-slideshare	
+        #     url: https://docs.google.com/presentation/d/e/2PACX-1vTRFeb0hXq0nNFznMTAe-ttVnakVxwPyGHSfFqJfuGCGQl7Ad4kaeUuBA0nafteEH6yLeshhpvQMtMx/pub?start=false&loop=false&delayms=3000&pli=1&slide=id.p
+        #   - title: Recording
+        #     icon: fab fa-youtube
+        #     url: https://www.youtube.com/watch?v=QH5kgSRhHgc 
+        quote: >
+          We've embraced OpenTelemetry for streamlined integration at ThousandEyes, simplifying data correlation with other OpenTelemetry-compliant sources. Our architecture utilizes existing OpenTelemetry Collector components, with additional custom extensions soon to be contributed to the community.
+        description: | # this will include new lines to allow paragraphs
+          ## Session Overview
+
+          - Initiative for adopting OpenTelemetry
+          - Architecture details
+          - Custom component development
+
+          Concluding with a demo illustrating how our customers effortlessly export data to any observability backend.
+      - layout: top-middle
         title: Observability 1o1
         link: t.co/vVHDlkSOir
+        caption: November 2023
         link_text: AlmeriaJS event
         additional_links:
           - title: Observability demo
@@ -104,13 +127,14 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Climbing
+      - Hiking
+      - Communities. Co-founter of [@AlmeriaTech_es](https://twitter.com/AlmeriaTech_es)
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
