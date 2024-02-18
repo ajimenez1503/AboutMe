@@ -124,28 +124,43 @@ content:
         caption: January 2023 - Present
         description: | # this will include new lines to allow paragraphs
           Building application to stream network test data to other observability backend using OpenTelemetry
+          - Microservices: Java, spring, DynamoDB, kafka, Gradle, Redis
+          - Opentelemetry: Otel Collector, Go, Honeycomb
+          - Observability: Grafana, Prometheus, Kibana, PagerDuty, Sentry, Signoz, HoneyComb, AppDynamic
+          - Deployment: Terraform, AWS, Docker, K8s, ArgoCD
+          - CI/CD: Mockito, Jenkins, GitAction
+          - Project: Jira, Github, Backstage, Confluence
       - layout: right
         title: Workshop
         link: https://theworkshop.com
         sub_title: software Engineer
         caption: July 2023 - November 2023
         description: | # this will include new lines to allow paragraphs
-          Design, develop, test, deploy, maintain, and enhance microservices
+          Design, develop, test, deploy, maintain, and enhance microservices.
+          - Skills: Java, Spring, RabbitMQ / Kafka, Angular, ElasticSearch, Docker, Kubernetes
+          - Observability: Elastic Stack (ECK, APM, Kibana), Prometheus, Grafana
+          - Best Practices: Solid Principles, Clean Code, CI/CD, TDD
       - layout: left
-        title: RTI
+        title: RTI (Real-Time Innovations)
         link: https://www.rti.com
         sub_title: Senior software Engineer
         caption: March 2017 - July 2023
         description: | # this will include new lines to allow paragraphs
           Building middleware to communicate data between machines following DDS specification
+          - CORE team member, contributing to RTI Connext DDS products.
+          - Designed and developed features in C, C++, and Java.
+          - Documented APIs, analyzed performance, and provided customer solutions.
+          - Led recruitment, onboarding, and leading mentoring team.
       - layout: right
         title: Ericsson
         link: https://www.ericsson.com
         sub_title: software Engineer
         caption: June 2016 - March 2017
         description: | # this will include new lines to allow paragraphs
-          Configuring automating the VPN, IP network, Lan connection, domain and so on in Python and an API Rest, which manage the database.
-
+          Configured and automated network components using Python and RESTful API.
+          - Implemented automation with Jenkins and Jira, managed code in Gerrit.
+          - Produced documentation in Confluence.
+          - Validated code with Mock Python testing.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
