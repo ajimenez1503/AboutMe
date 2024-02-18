@@ -50,23 +50,25 @@ content:
         link: t.co/vVHDlkSOir
         link_text: AlmeriaJS event
         additional_links:
-          - title:  Observability demo
+          - title: Observability demo
             icon: fab fa-github
             url: https://github.com/ajimenez1503/observability_demo
           - title: Slides
-            icon: fa-regular fa-presentation-screen
-            url: https://lnkd.in/d-WejTKH
+            icon: fab fa-slideshare	
+            url: https://docs.google.com/presentation/d/e/2PACX-1vTRFeb0hXq0nNFznMTAe-ttVnakVxwPyGHSfFqJfuGCGQl7Ad4kaeUuBA0nafteEH6yLeshhpvQMtMx/pub?start=false&loop=false&delayms=3000&pli=1&slide=id.p
           - title: Recording
             icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=QH5kgSRhHgc 
         quote: >
           ¿Qué sabéis sobre observabilidad?
         description: | # this will include new lines to allow paragraphs
-          La observabilidad te ayuda a entender mejor tu sistema y saber que está pasando en todo momento. Y lo más importante, facilitar y agilizar el análisis y solución de problema.
-
-          En la charla voy a hablar sobre la Observability y sus pilares: mensajes de logs, métricas y trazas. Además, voy a hacer una demo donde veréis la Observabilidad en acción y descubriréis lo útil que es.
-          [![Recording](https://img.youtube.com/vi/QH5kgSRhHgc/0.jpg)](https://www.youtube.com/watch?v=QH5kgSRhHgc)
-
+          <div style="float: left; width: 48%;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QH5kgSRhHgc?si=Twe4CPalfR5c9a-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div style="float: right; width: 48%;">
+             <p>La observabilidad te ayuda a entender mejor tu sistema y saber que está pasando en todo momento. Y lo más importante, facilitar y agilizar el análisis y solución de problema.</p>
+             <p>En la charla voy a hablar sobre la Observability y sus pilares: mensajes de logs, métricas y trazas. Además, voy a hacer una demo donde veréis la Observabilidad en acción y descubriréis lo útil que es.</p>
+          </div>
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -102,10 +104,6 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
